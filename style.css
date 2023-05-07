@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Raleway, openSans;
+    src: url("https: //fonts.google.com/specimen/Raleway"),
+        url("https: //fonts.google.com/specimen/Open+Sans");
+
+}
+
+
+
+body {
+    background-color: rgb(28, 36, 49);
+    color: #ffffff;
+    overflow-x: hidden;
+
+}
+
+
+
+Headings,
+Call-to-actions, .btn
+Header Navigation {
+    font-family: Raleway;
+    font-weight: 400, 700;
+
+}
+
+
+.nav-item .nav-link:hover {
+    text-decoration: underline;
+}
+
+.menu-region {
+    margin-left: 30px;
+
+
+}
+
+header img {
+    padding-top: 2em;
+    max-height: 400px;
+    max-width: 500px;
+}
+
+main {
+    /* background-color: hsl(218, 28%, 13%); */
+
+    font-weight: 200, 700;
+    color: #ffffff;
+}
+
+
+
+main {
+    background-image: url("images/bg-curvy-mobile.svg");
+    max-height: auto;
+    background-position: center;
+    margin-top: 50px;
+    margin-right: 4px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+main .container h1 {
+    font-size: 200%;
+    padding-right: -100px;
+
+
+}
+
+main .container .top-text {
+    margin-top: 2em;
+    font-size: 110%;
+}
+
+main .container .btn {
+    background-color: hsl(176, 68%, 64%);
+    border-radius: 30px;
+    margin: 20px 400px;
+}
+
+main .row1 {
+    margin-bottom: 80px;
+
+}
+
+.main .row1 .col1, main .row2 .col1 {
+    padding-right: px;
+
+}
+
+.card {
+    background-color: hsl(219, 30%, 18%);
+}
+
+footer {
+    background-color: rgb(11, 21, 35);
+}
+
+.testimonies {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.signupBox {
+background-color: hsl(217, 28%, 15%);
+margin: 200px 130px 200px 140px;
+padding: 0 80px; 
+}
+
+input {
+padding: 15px 190px;
+text-align: left;
+}
+
+.signupBox .btn {
+    background-color: hsl(176, 68%, 64%);
+    color:#ffffff;
+    margin: -8px 0px -8px 25px;
+
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: blue;
+    opacity: 1;
+    /* Firefox */
+    text-align: left;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: blue;
+    text-align: left;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: blue;
+    text-align: left;
+}
+
+.emailText {
+    padding-left: 50px;
+    padding-top: 8px;
+    color: hsl(0, 100%, 63%);
+    font-size: 80%;
+
+}
+
+footer {
+    color: hsl(216, 53%, 9%);
+}
