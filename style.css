@@ -23,8 +23,8 @@ body {
 
 
 Headings,
-Call-to-actions, .btn
-Header Navigation {
+Call-to-actions,
+.btn Header Navigation {
     font-family: Raleway;
     font-weight: 400, 700;
 
@@ -90,7 +90,8 @@ main .row1 {
 
 }
 
-.main .row1 .col1, main .row2 .col1 {
+.main .row1 .col1,
+main .row2 .col1 {
     padding-right: px;
 
 }
@@ -109,20 +110,20 @@ footer {
 }
 
 .signupBox {
-background-color: hsl(217, 28%, 15%);
-margin: 200px 130px 200px 140px;
-padding: 0 80px; 
+    background-color: hsl(217, 28%, 15%);
+    margin: 200px 130px 50px 140px;
+    padding: 0 80px;
 }
 
 input {
-padding: 15px 190px;
-text-align: left;
+    padding: 15px 140px;
+    text-align: left;
 }
 
 .signupBox .btn {
     background-color: hsl(176, 68%, 64%);
-    color:#ffffff;
-    margin: -8px 0px -8px 25px;
+    color: #ffffff;
+    margin: -8px 0px -8px 30px;
 
 }
 
@@ -154,6 +155,53 @@ text-align: left;
 
 }
 
-footer {
-    color: hsl(216, 53%, 9%);
+.footer1 {
+    background-color: hsl(216, 53%, 9%);
+    padding: 10%;
+}
+
+
+.footer1_col1,
+.footer1_col2,
+.footer1_col3,
+.footer1_col4 {
+    margin-right: -190px;
+}
+
+
+.our_email {
+    margin-top: -50px;
+}
+
+.location_icon {
+
+    margin-top: 60px;
+}
+
+.location_text {
+    margin-top: -25px;
+    margin-left: 40px;
+
+}
+
+.our_phone_icon,
+.our_email_icon {
+    margin-top: 82px;
+}
+
+.our_phone_text,
+.our_email_text {
+    margin-top: -50px;
+    margin-left: 40px;
+
+}
+
+.footer1_col3 {
+    margin-top: 82px;
+    margin-left: -75px;
+}
+
+.footer1_col4 {
+    margin-top: 82px;
+    margin-left: -175px;
 }
